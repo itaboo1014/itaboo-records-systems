@@ -4,15 +4,15 @@
 }
 
 .header-contents {
-
+  margin:0 auto;
 }
 
 .header-left {
-
+  font-weight:normal;
 }
 
 .header-right {
-
+  text-align:right;
 }
 
 
