@@ -3,7 +3,8 @@
 }
 
 .header {
-  background-color:gray;
+  height:80px;
+  background-color:black;
   opacity:0.5;
   
 }
