@@ -13,13 +13,13 @@
 }
 
 .header-left {
-  display:inline-box;
+  display:inline-block;
   font-weight:normal;
   float:left;
 }
 
 .header-right {
-  display:inline-box;
+  display:inline-block;
   float:right;
 }
 
