@@ -1,9 +1,9 @@
 .page{
-  background-color:black;
+  
 }
 
 .header {
-  color:white;
+  
   text-align:center;
 }
 
@@ -23,21 +23,21 @@
 
 .systems {
   text-align:center;
-  color:white;
+  
 }
 
 .youtube{
-  color:white;
+  background-color:red;
 }
 
 .instagram{
-  color:white;
+  background-color:orenge;
 }
 
 .twitter{
-  color:white;
+  background-color:lightblue;
 }
 
 .facebook{
-  color:white;
+  background-color:blue;
 }
