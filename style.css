@@ -12,10 +12,12 @@
 }
 
 .header-left {
+  text:inlign-box;
   font-weight:normal;
 }
 
 .header-right {
+  text:inlign-box;
   text-align:right;
 }
 
