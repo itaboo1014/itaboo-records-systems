@@ -35,24 +35,24 @@
 .youtube{
   background-color:red;
   padding:30px;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 .instagram{
   background-color:orange;
   padding:30px;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 .twitter{
   background-color:lightblue;
   padding:30px;
-  border-radius:5px;
+  border-radius:10px;
 }
 
 .facebook{
   background-color:blue;
   padding:30px;
-  border-radius:5px;
+  border-radius:10px;
   margin-right:50px;
 }
