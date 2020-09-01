@@ -34,25 +34,25 @@
 
 .youtube{
   background-color:red;
-  padding:10px;
+  padding:30px;
   border-radius:5px;
 }
 
 .instagram{
   background-color:orange;
-  padding:10px;
+  padding:30px;
   border-radius:5px;
 }
 
 .twitter{
   background-color:lightblue;
-  padding:10px;
+  padding:30px;
   border-radius:5px;
 }
 
 .facebook{
   background-color:blue;
-  padding:10px;
+  padding:30px;
   border-radius:5px;
   margin-right:50px;
 }
