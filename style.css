@@ -15,7 +15,7 @@
   font-weight:normal;
 }
 
-.header-right {
+.header-right a{
   text-align:right;
   font-size:40px;
   color:white;
