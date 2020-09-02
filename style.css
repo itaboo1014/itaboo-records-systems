@@ -15,7 +15,6 @@
 .header-left {
   float:left;
   color:white;
-  height:100px;
 }
 
 .header-left h1{
@@ -29,7 +28,7 @@
 .header-right a{
   font-size:40px;
   color:white;
-  margin-right:10px;
+  margin-right:50px;
 }
 
 
