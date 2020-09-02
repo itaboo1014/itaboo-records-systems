@@ -22,6 +22,10 @@
   height:100px;
 }
 
+.header-left h1{
+  font-size:30px;
+}
+
 .header-right {
   float:right;
 }
