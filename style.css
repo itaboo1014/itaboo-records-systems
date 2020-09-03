@@ -1,63 +1,81 @@
+.header-background img{
+  width:100%;
+}
+
 .header {
   height:120px;
   width:100%;
+  margin:0 auto;
   background-color:black;
   opacity:0.9;
   position:fixed;
+}
+
+.header h1 {
+  font-size:30px;
+  letter-spacing:5px;
+  float:left;
+  color:white;
+  opacity:1.0;
+  padding-bottom:10px;
+  padding-left:10px;
   z-index:10;
 }
 
-.header-contents {
-  margin:0 auto;
-  opacity:1.0;
+.header h1 span{
+  color:red;
 }
 
-.header-left {
-  float:left;
-  color:white;
-}
-
-.header-left h1{
-  font-size:30px;
-}
-
-.header-right {
+.sns a{
+  font-family: monospace;
+  margin-right:20px;
+  margin-top:10px;
   float:right;
+  border-radius:10px;
 }
 
-.header-right a{
-  font-size:40px;
+.youtube a{
   color:white;
-  margin-right:50px;
+  opacity:1.0;
+  font-size:50px;
+  padding:15px 20px;
+  background-color:red;
+  border-radius:10px;
+  display:inline-block;
 }
 
+.instagram a{
+  color:white;
+  opacity:1.0;
+  font-size:50px;
+  padding:15px 25px;
+  background-color:orange;
+  border-radius:10px;
+  display:inline-block;
+}
+
+.twitter a{
+  color:white;
+  opacity:1.0;
+  font-size:50px;
+  padding:15px 25px;
+  background-color:cyan;
+  border-radius:10px;
+  display:inline-block;
+}
+
+.kizai a{
+  color:white;
+  opacity:1.0;
+  font-size:50px;
+  padding:15px 25px;
+  background-color:lightgreen;
+  border-radius:10px;
+  display:inline-block;
+}
 
 .systems {
   text-align:center;
   margin-top:200px;
 }
 
-.youtube{
-  background-color:red;
-  padding:20px;
-  border-radius:10px;
-}
-
-.instagram{
-  background-color:orange;
-  padding:20px;
-  border-radius:10px;
-}
-
-.twitter{
-  background-color:cyan;
-  padding:20px;
-  border-radius:10px;
-}
-
-.facebook{
-  background-color:blue;
-  padding:20px;
-  border-radius:10px;
-  margin-right:50px;
-}
