@@ -33,7 +33,7 @@
 .youtube a{
   color:white;
   opacity:1.0;
-  font-size:50px;
+  font-size:40px;
   padding:15px 20px;
   background-color:red;
   border-radius:10px;
@@ -43,7 +43,7 @@
 .instagram a{
   color:white;
   opacity:1.0;
-  font-size:50px;
+  font-size:40px;
   padding:15px 25px;
   background-color:orange;
   border-radius:10px;
@@ -53,18 +53,18 @@
 .twitter a{
   color:white;
   opacity:1.0;
-  font-size:50px;
+  font-size:40px;
   padding:15px 25px;
   background-color:cyan;
   border-radius:10px;
   display:inline-block;
 }
 
-.rec {
+.rec a{
   color:white;
   opacity:1.0;
-  font-size:50px;
-  padding:10px 30px;
+  font-size:40px;
+  padding:10px 25px;
   background-color:yellow;
   border-radius:10px;
   display:inline-block;
@@ -73,7 +73,7 @@
 .hiroki a{
   color:white;
   opacity:1.0;
-  font-size:50px;
+  font-size:40px;
   padding:15px 25px;
   background-color:lightgreen;
   border-radius:10px;
