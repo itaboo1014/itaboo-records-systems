@@ -1,1 +1,128 @@
+@media (max-width: 1023px) and (min-width: 768px){
 
+    a,p,h1,h2{
+        color: white;
+    }
+
+    body{
+        background: black;
+    }
+        .header{
+            width: 100%;
+            margin: auto;
+            background: black;
+            position: fixed;
+
+        }
+            .header-contents{
+                width: 95%;
+                margin: auto;
+            }
+            .header-contents h1{
+                float: left;
+                font-size: 3vw;
+            }
+            .header-contents div{
+                font-size: 2vw;
+                color: blue;
+            }
+            .sns-contents{
+                float: right;
+            }
+            .sns{
+                margin:3vw 0.5vw;
+                padding:1vw 1vw;
+                display: inline-block;
+                border-radius: 10px;
+            }
+            .sns span2{
+                
+            }
+            .sns a{
+                font-size: 2vw;
+                text-decoration: none;
+                font-weight: 900;
+            }
+            .sns a:hover{
+                color: white; 
+            }
+            .youtube{
+                background: red;
+                box-shadow: 0vw 0.5vw rgba(255, 0, 0, 0.5);
+                letter-spacing: 0.2vw;
+            }
+            .instagram{
+                background: orange;
+                box-shadow: 0vw 0.5vw rgba(255, 166, 0, 0.5);
+            }
+            .twitter{
+                background: cyan;
+                box-shadow: 0vw 0.5vw rgba(0, 255, 255, 0.493);
+                letter-spacing: 0.2vw;
+            }
+            .sns:hover{
+                box-shadow: none;
+                position: relative;
+                top: 0.5vw;
+                opacity: 0.7;
+            }
+            .site-link{
+                width: 98%;
+                margin: 0 auto;
+                padding-top: 20vw;
+                text-align: center;
+            }
+                .link{
+                    display: inline-block;
+                    margin: 3vw 3vw;
+                    border-radius: 5px;
+                    background: lightgreen;
+                    box-shadow: 0vw 0.5vw green;
+                    width:40%;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .link a{
+                    font-size: 2.2vw;
+                    text-decoration: none;
+                    font-weight: 900;
+                }
+                .link a:hover{
+                    color: white;
+                }
+                .rec{
+                    
+                    
+                    }
+                .hiroki{
+                    
+                    
+                }
+                .link:hover{
+                    color: white;
+                    opacity: 0.7;
+                    box-shadow: none;
+                    position: relative;
+                    top: 0.5vw;
+            }
+        .systems{
+            text-align: center;
+        }
+            .systems .ex-text{
+                text-align: center;
+            }
+            .systems .ex-text div1{
+                display: none;
+            }
+            .systems .ex-text div2{
+
+            }
+            .systems h2{
+                padding-top: 50px;
+            }
+            .systems a{
+                display: inline-block;
+                padding: 5px;
+            }
+
+}
