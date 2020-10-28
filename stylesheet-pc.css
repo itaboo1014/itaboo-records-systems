@@ -1,129 +1,128 @@
+@media (min-width: 1024px){
+    
+    a,p,h1,h2{
+        color: white;
+    }
 
-    
-    
     body{
-        background-color: black;
-        color:white;
+        background: black;
     }
+        .header{
+            width: 100%;
+            margin: auto;
+            background: black;
+            position: fixed;
 
-    script{
-        color:white;
-    }
-
-    .header{
-        width:100%;
-        background-color:black;
-        opacity:0.9;
-        position:fixed;
-
-    }
-        .header-contents{
-            width:95%;
-            margin:0 auto;
         }
-        .header-contents h1{
-            float:left;
-        }
-        .sns-contents{
-            float: right;
-            margin-top: 5px;
-            margin-right:10px;
-        }
+            .header-contents{
+                width: 95%;
+                margin: auto;
+            }
+            .header-contents h1{
+                font-weight: 2000;
+                float: left;
+                font-size: 3vw;
+            }
+            .header-contents div{
+                font-size: 2vw;
+                color: white;
+            }
+            .sns-contents{
+                float: right;
+            }
             .sns{
-                display:inline-block;
-                padding:10px 10px;
-                float:left;
-                border-radius: 20px;
-                margin:5px;
+                margin: 3vw 1vw;
+                padding:1vw 1vw;
+                display: inline-block;
+                border-radius: 10px;
             }
-    
+            .sns span2{
+                
+            }
             .sns a{
-                color:white;
-                font-weight: 700;
+                font-size: 2vw;
+                text-decoration: none;
+                font-weight: 900;
             }
-            
+            .sns a:hover{
+                color: white; 
+            }
             .youtube{
-                background-color:rgb(255,0,0);
-                box-shadow:0px 5px rgb(170, 0, 0);
+                background: red;
+                box-shadow: 0vw 0.5vw rgba(255, 0, 0, 0.5);
+                letter-spacing: 0.2vw;
             }
             .instagram{
-                background-color: rgb(255, 127, 80);   
-                box-shadow:0px 5px rgb(187, 73, 11);
+                background: orange;
+                box-shadow: 0vw 0.5vw rgba(255, 166, 0, 0.5);
             }
             .twitter{
-                background-color:rgb(89, 196, 231);
-                box-shadow:0px 5px rgb(21, 91, 121);
+                background: cyan;
+                box-shadow: 0vw 0.5vw rgba(0, 255, 255, 0.493);
+                letter-spacing: 0.2vw;
             }
-    
-            .youtube:hover {
-                box-shadow:none;
-                position:relative;
-                top:5px;
+            .sns:hover{
+                box-shadow: none;
+                position: relative;
+                top: 0.5vw;
+                opacity: 0.7;
             }
-            .instagram:hover {
-                box-shadow:none;
-                position:relative;
-                top:5px;
+            .site-link{
+                width: 98%;
+                margin: 0 auto;
+                padding-top: 20vw;
+                text-align: center;
             }
-            .twitter:hover {
-                box-shadow:none;
-                position:relative;
-                top:5px;
-            }
-
-    .site-link{
-        padding-top:150px;
-        margin:0 auto;
-        width:70%;
-    }
-        
-        
-        
-        .rec{
+                .link{
+                    display: inline-block;
+                    margin: 3vw 3vw;
+                    border-radius: 5px;
+                    background: lightgreen;
+                    box-shadow: 0vw 0.5vw green;
+                    width:40%;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                .link a{
+                    font-size: 2vw;
+                    text-decoration: none;
+                    font-weight: 900;
+                }
+                .link a:hover{
+                    color: white;
+                }
+                .rec{
+                    
+                    
+                    }
+                .hiroki{
+                    
+                    
+                }
+                .link:hover{
+                    color: white;
+                    opacity: 0.7;
+                    box-shadow: none;
+                    position: relative;
+                    top: 0.5vw;
+                }
+        .systems{
             text-align: center;
-            display:block;
-            padding:5px 10px;
-            border-radius: 20px;
-            font-weight: 700;
-            background-color:lightgreen;                box-shadow:0px 5px green;
         }
-        
-        .hiroki{
-            text-align: center;
-            display:block;
-            padding:5px 10px;
-            border-radius: 20px;
-            font-weight: 700;
-            background-color:lightgreen;
-            box-shadow:0px 5px green;
-            margin-top:20px;
-        }
-        
-        .rec:hover {
-            box-shadow:none;
-            position:relative;
-            top:5px;
-        }
-        
-        .hiroki:hover {
-            box-shadow:none;
-            position:relative;
-            top:5px;
-        }
+            .systems .ex-text{
+                text-align: center;
+            }
+            .systems .ex-text div1{
 
-    .systems{
-        text-align:center;
-
-    }
-
-    .systems h2{
-        padding-top:50px;
-        padding-bottom:20px;
-    }
-
-    .systems a{
-        display:inline-block;
-        margin:10px 0px;
-    }
-
-
+            }
+            .systems .ex-text div2{
+                display: none;
+            }
+            .systems h2{
+                padding-top: 50px;
+            }
+            .systems a{
+                display: inline-block;
+                padding: 5px;
+            }
+}
