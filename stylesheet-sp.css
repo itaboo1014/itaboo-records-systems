@@ -115,6 +115,8 @@
         }
             .systems .ex-text{
                 text-align: center;
+                font-size: 80%;
+                padding-bottom: 30px;
             }
             .systems .ex-text div1{
                 display: none;
